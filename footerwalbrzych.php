@@ -9,7 +9,5 @@ echo '
         na kursy.</div>
     </div>
   </div>
-
 ';
-
 ?>
