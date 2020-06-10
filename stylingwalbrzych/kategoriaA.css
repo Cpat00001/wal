@@ -1,0 +1,54 @@
+body {
+  /* background-color: rgb(43, 46, 73); */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 26%,
+    rgba(9, 9, 121, 1) 77%,
+    rgba(222, 21, 62, 1) 100%
+  );
+}
+
+/* first row */
+#one {
+  background-image: url('./img/katA/fot2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 400px;
+  height: 100%;
+  background-color: rgb(192, 93, 93);
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+#two {
+  position: relative;
+  min-height: 300px;
+  height: auto;
+  background-color: rgb(97, 112, 160);
+  border: 1px solid white;
+}
+
+/* metki */
+#metka1 {
+  position: absolute;
+  background-color: rgb(224, 10, 64);
+  opacity: 80%;
+  color: white;
+  right: 10%;
+  width: auto;
+  height: auto;
+  top: 30%;
+  padding: 10px;
+  text-align: center;
+}
+#metka2 {
+  position: absolute;
+  height: 20%;
+  height: auto;
+  background-color: rgb(39, 36, 37);
+  color: white;
+  right: 10%;
+  width: 80%;
+  top: 60%;
+}
