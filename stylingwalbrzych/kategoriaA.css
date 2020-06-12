@@ -4,8 +4,8 @@ body {
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 26%,
-    rgba(9, 9, 121, 1) 77%,
-    rgba(222, 21, 62, 1) 100%
+    rgb(12, 12, 122) 77%,
+    #0057d2 100%
   );
 }
 
@@ -26,11 +26,8 @@ body {
   min-height: 300px;
   height: auto;
   background-color: rgb(97, 112, 160);
-  /* border-left: 2px solid rgb(241, 5, 5); */
   margin-bottom: 5px;
-  /* background-image: url('./img/katA/fot3.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat; */
+  color: white;
 }
 
 /* metki */
@@ -39,10 +36,10 @@ body {
   background-color: rgb(224, 10, 64);
   opacity: 80%;
   color: white;
-  right: 10%;
   width: auto;
+  margin: 0 auto;
   height: auto;
-  top: 30%;
+  top: 45%;
   padding: 10px;
   text-align: center;
 }
@@ -51,10 +48,9 @@ body {
   height: 20%;
   height: auto;
   background-color: rgb(39, 36, 37);
-  color: white;
+  color: rgb(16, 241, 16);
   right: 10%;
-  width: 80%;
-  top: 60%;
+  width: 60%;
   text-align: center;
   opacity: 90%;
 }
