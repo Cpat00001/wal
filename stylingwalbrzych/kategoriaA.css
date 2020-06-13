@@ -8,6 +8,11 @@ body {
     #0057d2 100%
   );
 }
+/* navbar logo */
+.navbar-brand {
+  background-color: red;
+  padding: 10px;
+}
 
 /* first row */
 #one {
@@ -24,10 +29,46 @@ body {
 #two {
   position: relative;
   min-height: 300px;
+  height: 300px;
   height: auto;
   background-color: rgb(97, 112, 160);
   margin-bottom: 5px;
   color: white;
+  text-align: left;
+}
+#socialmedia {
+  position: relative;
+  min-height: 100px;
+  height: auto;
+  background-color: rgb(97, 112, 160);
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+#socialVertical {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+#youtube {
+  background-color: rgb(255 0 0);
+  padding: 5px;
+  border-radius: 5px;
+}
+#fb {
+  background-color: rgb(66 103 178);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+a {
+  color: white;
+}
+#uzaleznia {
+  bottom: 0;
+  position: absolute;
+  left: 50%;
 }
 
 /* metki */
@@ -54,6 +95,12 @@ body {
   text-align: center;
   opacity: 90%;
 }
+#zamiastMetki {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  width: 60%;
+}
 /* images */
 img {
   width: 100%;
@@ -62,4 +109,32 @@ img {
 /* text */
 #white {
   color: white;
+}
+/* footer */
+#kontakt0 {
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #e62739;
+  height: 70px;
+  text-align: left;
+  padding: 2%;
+}
+#kontakt1 {
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #e62739;
+  height: 70px;
+  text-align: right;
+  padding: 2%;
+}
+#kontakt2 {
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(78, 78, 78);
+  height: 70px;
+  font-weight: bold;
 }

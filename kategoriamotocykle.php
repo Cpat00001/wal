@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <?php include '../header4_bikes.php' ?>
+    <?php include './headMotoWalbrzych.php' ?>
     <div class="container">
         <div class="row" id="row1">
             <div class="col-sm-12 col-md-6">
